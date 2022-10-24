@@ -1,0 +1,60 @@
+:root {
+    --fundo: rgb(174, 174, 174);
+    --header: rgb(39, 37, 37) ;
+    --titulo-principal : white;
+    --fonte-titulo: Georgia;
+}
+
+body {
+    background-color: var(--fundo) ;
+}
+
+.principal-titulo {
+    background-color: var(--header) ;
+    color: var(--titulo-principal);
+    font-size: 30px;
+    text-align: center;
+    padding: 12px 0;
+    font-family: var(--fonte-titulo);
+}
+
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 28px;
+    font-family: var(--fonte-titulo);
+	display: block;
+	padding: 5px 0;
+	border-bottom: 1px solid var(--titulo-principal);
+	margin-bottom: 10px;
+}
+
+table{
+	width: 100%;
+    table-layout: fixed;
+}
+
+td, th {
+	padding: 15px;
+	border: 2px solid rgb(226, 223, 223);
+	text-align: center;
+    font-weight: bold;
+    background-color: rgb(199, 198, 198);
+}
+
+th{
+	background-color: rgb(62, 61, 61);
+    color: rgb(255, 248, 248);
+    font-size: 20px;
+}
